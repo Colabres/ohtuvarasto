@@ -1,0 +1,6 @@
+#ignore .tmp
+*.tmp
+#ignore catalog "__pycache__"
+__pycache__/*
+# ignotre catalog ".pytest_cache"
+.pytest_cache/
