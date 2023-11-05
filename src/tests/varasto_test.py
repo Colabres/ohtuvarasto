@@ -52,5 +52,3 @@ class TestVarasto(unittest.TestCase):
         self.varasto.lisaa_varastoon(-5)
         self.assertAlmostEqual(saldoalussa,self.varasto.saldo)
 
-    def test_for_exisise10(self):
-        self.something/0
